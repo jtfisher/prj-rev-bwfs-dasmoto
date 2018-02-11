@@ -1,0 +1,42 @@
+/* CSS to modify the appearence of Dasmoto Arts & Crafts project - Jon T Fisher, 2/11/2018 */
+
+/* CSS for font-family and weight - Jon T Fisher, 2/11/2018 */
+h1,
+h2,
+#paint,
+#brush,
+#frame {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+/* CSS for additional appearence settings, h1 - Jon T Fisher, 2/11/2018 */
+h1 {
+  font-size: 100px;
+  color: khaki;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  text-align: center;
+}
+/* CSS for additional appearence settings, Brush section h2 - Jon T Fisher, 2/11/2018 */
+.brushes {
+  font-size: 32px;
+  color: white;
+  background-color: mediumspringgreen;
+}
+/* CSS for additional appearence settings, Frames section h2 - Jon T Fisher, 2/11/2018 */
+.frames {
+  font-size: 32px;
+  color: white;
+  background-color: lightcoral;
+}
+/* CSS for additional appearence settings, Paint section h2 - Jon T Fisher, 2/11/2018 */
+.paint {
+  font-size: 32px;
+  color: white;
+  background-color: skyblue;
+}
+/* CSS for additional appearence settings, inline settings in each section - Jon T Fisher, 2/11/2018 */
+#paint,
+#brush,
+#frame {
+  color: blue;
+}
